@@ -262,6 +262,7 @@ def mainGame(movementInfo):
         if crashTest[0]:
             # Update the q scores
             bot.update()
+            bot.progress(score)
 
             return {
                 'y': playery,
